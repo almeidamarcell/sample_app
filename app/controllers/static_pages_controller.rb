@@ -11,4 +11,7 @@ class StaticPagesController < ApplicationController
   def about
   	@title = "About"
   end
+    def minigame
+    @title = "2011question6"
+  end
 end
