@@ -8,4 +8,6 @@
   match '/about',   to: 'static_pages#about',   via: 'get'
   match '/contact', to: 'static_pages#contact', via: 'get'
   match '/2011question6page', to: 'static_pages#2011question6page', via: 'get'
+  match '/game', to: 'static_pages#game', via: 'get'
+
  end
